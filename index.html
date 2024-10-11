@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Word</title>
 
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/da62144f83.js" crossorigin="anonymous"></script>
+
     <!-- font family link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +28,7 @@
                 <h1>Hanif.X</h1>
             </article>
             <article>
-                <button type="button">Download Resume</button>
+                <input class="primary-btn" id="submit" type="submit" value="Download Resume">
             </article>
         </section>
     </header>
@@ -41,7 +44,7 @@
                 <p class="css-for-p-tag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio consequuntur
                     provident asperiores quibusdam libero reiciendis aperiam, dolores culpa ex sequi perspiciatis
                     commodi qui doloremque eos? Debitis nisi vel esse id.</p>
-                <button type="button" class="banner-button"><a href="#footer">Contact with me</a></button>
+                <button type="button" class="banner-button"><a href="#footer-link">Contact with me</a></button>
 
             </article>
         </section>
@@ -260,18 +263,34 @@
 
         <!-- last part -->
         <section class="last-part">
-            <article class="heading-part card-text">
+            <article class="heading-part card-text last-card">
                 <h3>Why Web Development??</h3>
-                <p class="css-for-p-tag">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum unde,
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum unde,
                     perferendis
                     optio tempore tempora consectetur eius eum officiis minus earum!</p>
+                    <div>
+                        <form action="" class="form-input">
+                            <input type="text" name="text   " id="text" placeholder="Suggest me any feedback for me" required> 
+                            <input class="primary-btn" id="submit" type="submit" value="Submit">
+                        </form>
+                    </div>
             </article>
         </section>
     </main>
 
     <!-- footer part -->
     <footer>
-
+        <section id="footer-link" class="footer">
+            <article>
+                <p>An Open Commitment by Md Abu Hanif</p>
+            </article>
+            <article class="social-icons">
+                <a target="_blank" href="https://twitter.com/SulcusAbuHanif"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/SulcusHanif"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/sulcusabuhanif/"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/md-abu-hanif"><i class="fab fa-github"></i></a>
+            </article>
+        </section>
     </footer>
 </body>
 

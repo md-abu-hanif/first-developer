@@ -166,7 +166,6 @@ a {
 .fifth-section {
     margin: 0 auto;
     width: 1140px;
-    text-align: center;
 }
 
 .fifth-card {
@@ -189,24 +188,78 @@ a {
 .last-part {
     margin: 50px auto;
     width: 1140px;
+    border-radius: 16px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
+}
+
+.last-card {
+    color: rgb(255, 255, 255);
+    padding: 60px;
 }
 
 
+.form-input input[type=text] {
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* css for footer  */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 140px;
+    background-color:rgba(13, 19, 33, 0.03);
+}
+
+.social-icons {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.fa-twitter, .fa-facebook {
+    color: rgb(6, 117, 243);
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
+.fa-github {
+    color: black;
+}
 
 /* common-css */
 .heading-part {
-    padding: 10px 144px;
-    margin-bottom: 25px;
+    text-align: center;
+    margin: 25px auto;
 }
 
 .css-for-p-tag {
-    color: rgb(33, 27, 13);
+    color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
