@@ -63,6 +63,7 @@ body {
     letter-spacing: 3px;
     margin-bottom: 30px;
 }
+
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -78,7 +79,7 @@ a {
     background-color: rgba(13, 19, 33, 0.02);
 }
 
-.second-part{
+.second-part {
     text-align: center;
     padding: 80px 90px;
     margin-bottom: 50px;
@@ -121,5 +122,53 @@ a {
 }
 
 .third-part-heading {
-    padding:10px 144px;
+    padding: 10px 144px;
+}
+
+.youtube-video {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video-link {
+    width: 1076px;
+    height: 550px;
+    padding: 16px;
+    border-radius: 30px;
+}
+
+/* fourth pard css */
+.fourth-section {
+    margin: 50px auto;
+    width: 1140px;
+    text-align: center;
+}
+
+.fourth-part-card {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 16px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+#card-bg-html {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+#card-bg-css {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+#card-bg-js {
+    background-color: rgba(255, 223, 0, 0.05);
 }
